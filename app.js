@@ -40,7 +40,7 @@ app.post("/",function(req,res){
 
    const options = {
     method: "POST",
-    auth: "ayush1:03807caaf923470a5e90a8ce5d03c4a6-us21"
+    auth: "ayush1:81b55771c038b1a3e3bc8d8f3b10b9a2-us21"
    }
 
  //We have to get data as well as post it to external source
@@ -57,7 +57,7 @@ app.post("/",function(req,res){
  })
  //sending our data to mailchimp
 
-//  request.write(jsonData);
+ request.write(jsonData);
  request.end();
 });
 
